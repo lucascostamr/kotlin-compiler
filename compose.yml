@@ -1,0 +1,7 @@
+services:
+  kotlin:
+    build: .
+    volumes:
+      - .:/home/user/app
+    command: bash
+    tty: true
